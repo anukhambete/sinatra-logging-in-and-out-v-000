@@ -19,7 +19,6 @@ class ApplicationController < Sinatra::Base
     end
 
     session[:user_id] = @user.id
-    #binding.pry
     redirect '/account'
   end
 
